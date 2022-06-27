@@ -1,0 +1,36 @@
+   
+.our-features{padding-top: 94px;}
+.our-features-list{display: flex;}
+.our-features-item{
+    width: 270px;
+&:not(:last-child){margin-right: 30px;}
+}
+
+
+.our-features-item-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color-team-section);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.features-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    }
+    
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    color: var(--description-text-color);
+}
