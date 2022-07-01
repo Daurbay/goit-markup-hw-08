@@ -45,3 +45,9 @@
 .bussines-section-image:not(:last-child){
     margin-right: 30px;
 }
+
+@media screen and (max-width: 1199px) {
+    .our-business-section {
+      display: none;
+    }
+  }

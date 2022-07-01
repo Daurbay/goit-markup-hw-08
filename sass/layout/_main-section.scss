@@ -1,14 +1,14 @@
     
 .main-section {
-    background-color: var(--background-hero);
-    padding-top: 118px;
+  background-color: #2F303A;
+  padding-top: 118px;
     padding-bottom: 118px;
     text-align: center;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/mobile/header/header@1x\ .webp);
+      url(../../images/mobile/header/header@1x\ .jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -16,14 +16,82 @@
     margin: 0 auto;
   }
 
-.main-title{
-    max-width: 696px;
+  .main-title {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.61;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #fff;
     margin: 0 auto 30px;
-    color: #FFFFFF;
-}
+    max-width: 360px;
+  }
+  
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../images/desktop/header/header@2x.jpg);
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../images/tablet/header/header@1x.jpg);
+    }
+  
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .main-section {
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url(../../images/tablet/header/header@2x.jpg);
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .main-section {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../images/desktop/header/header@1x.jpg);
+      max-width: 1600px;
+      background-size: cover;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+  
+    .main-title {
+      font-size: 44px;
+      line-height: 1.36;
+      max-width: 696px;
+    }
+  
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .main-section {
+        background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url(../../images/desktop/header/header@2x.jpg);
+      }
+    }
+  }
+
+
