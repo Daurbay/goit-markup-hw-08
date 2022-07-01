@@ -1,4 +1,18 @@
 
+@media screen and (max-width:480px){
+    .modal{
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;    
+    transform: translate(-50%, -50%);
+    min-width: 450px;
+    min-height: 609px; 
+    border-radius: 4px;
+    background-color: #fff;
+}
+}
+
 .modal{
     padding: 40px;
     position: absolute;
